@@ -1,0 +1,488 @@
+ {
+  "profile": {
+    "id": 1,
+    "name": "Karthik",
+    "picture": "https://image.ibb.co/k0wVTm/profile_pic.jpg",
+    "status": "Available",
+    "friendsLastChat": [
+      {
+        "id": 2,
+        "name": "Alex",
+        "picture": "https://image.ibb.co/cA2oOb/alex_1.jpg",
+        "latest_timestamp": "10:00 AM",
+        "lastChat":
+          "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour"
+      },
+      {
+        "id": 3,
+        "name": "Bob",
+        "picture": "https://image.ibb.co/gSyTOb/bob_1.jpg",
+        "latest_timestamp": "12:30 AM",
+        "lastChat": "It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable"
+      },
+      {
+        "id": 4,
+        "name": "Luke",
+        "picture": "https://image.ibb.co/jOzeUG/luke_1.jpg",
+        "latest_timestamp": "4:12 PM",
+        "lastChat": "I will look into it"
+      },
+      {
+        "id": 5,
+        "name": "Bane",
+        "picture": "https://image.ibb.co/cBZPww/bane_1.jpg",
+        "latest_timestamp": "7:53 PM",
+        "lastChat": "Exactly my point!"
+      },
+      {
+        "id": 6,
+        "name": "Darth Vader",
+        "picture": "https://image.ibb.co/j4Ov3b/darth_vader_1.png",
+        "latest_timestamp": "1:09 PM",
+        "lastChat": "Not quite the same."
+      },
+      {
+        "id": 7,
+        "name": "Zach",
+        "picture": "https://image.ibb.co/b4kxGw/zach_1.jpg",
+        "latest_timestamp": "Yesterday",
+        "lastChat": "I thought that the event was over long ago"
+      },
+      {
+        "id": 8,
+        "name": "Katie",
+        "picture": "https://image.ibb.co/eLVWbw/katie_1.jpg",
+        "latest_timestamp": "Yesterday",
+        "lastChat": "nothing"
+      },
+      {
+        "id": 9,
+        "name": "Chloe",
+        "picture": "https://image.ibb.co/ncAa3b/chloe_1.jpg",
+        "latest_timestamp": "Wednesday",
+        "lastChat": "sure i'll take it from you"
+      },
+      {
+        "id": 10,
+        "name": "Kennith",
+        "picture": "https://image.ibb.co/fQKPww/kennith_1.jpg",
+        "latest_timestamp": "Wednesday",
+        "lastChat": "Take care, bye"
+      },
+      {
+        "id": 11,
+        "name": "Tara",
+        "picture": "https://image.ibb.co/dM6hib/tara_1.jpg",
+        "latest_timestamp": "Monday",
+        "lastChat": "Not today"
+      },
+      {
+        "id": 12,
+        "name": "Gary",
+        "picture": "https://image.ibb.co/gsF8Ob/gary_1.jpg",
+        "latest_timestamp": "Sunday",
+        "lastChat": "Whatever works for you!"
+      },
+      {
+        "id": 13,
+        "name": "Zoey",
+        "picture": "https://image.ibb.co/nd0Wbw/zoey_1.jpg",
+        "latest_timestamp": "8/12/2017",
+        "lastChat": "Will get in touch"
+      },
+      {
+        "id": 14,
+        "name": "Ash",
+        "picture": "https://image.ibb.co/iasYpG/ash_1.jpg",
+        "latest_timestamp": "6/12/2017",
+        "lastChat": "Ok"
+      },
+      {
+        "id": 15,
+        "name": "Zen",
+        "picture": "https://image.ibb.co/eeqWbw/zen_1.jpg",
+        "latest_timestamp": "19/11/2017",
+        "lastChat": "Lol"
+      }
+    ]
+  },
+  "friendsChat": [
+    {
+      "id": 2,
+      "name": "Alex",
+      "picture": "https://image.ibb.co/cA2oOb/alex_1.jpg",
+      "chatlog": [
+        {
+          "text":
+            "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+          "timestamp": "10:05 AM",
+          "side": "left",
+          "message_id": 5
+        },
+        {
+          "text":
+            "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet",
+          "timestamp": "10:03 AM", 
+          "side": "right",
+          "message_id": 4
+        },
+        {
+          "text":
+            "Or maybe not, let me check logistics and call you. Give me sometime",
+          "timestamp": "10:03 AM",
+          "side": "left",
+          "message_id": 3
+        },
+        {
+          "text": "I believe they must have misplaced it elsewhere?!",
+          "timestamp": "10:02 AM",
+          "side": "right",
+          "message_id": 2
+        },
+        {
+          "text": "Did you recieve the package I sent you the other day?",
+          "timestamp": "10:00 AM",
+          "side": "left",
+          "message_id": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Bob",
+      "picture": "https://image.ibb.co/gSyTOb/bob_1.jpg",
+      "chatlog": [
+        {
+          "text":
+            "It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable",
+          "timestamp": "07:05 AM",
+          "side": "left",
+          "message_id": 4
+        },
+        {
+          "text":
+            "The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+          "timestamp": "07:00 AM",
+          "side": "right",
+          "message_id": 3
+        },
+        {
+          "text":
+            "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested",
+          "timestamp": "06:58 AM",
+          "side": "left",
+          "message_id": 2
+        },
+        {
+          "text":
+            "Sections 1.10.32 and 1.10.33 from 'de Finibus Bonorum et Malorum' by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham",
+          "timestamp": "06:55 AM",
+          "side": "right",
+          "message_id": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Luke",
+      "picture": "https://image.ibb.co/jOzeUG/luke_1.jpg",
+      "chatlog": [
+        {
+          "text": "I will look into it",
+          "timestamp": "10:00 AM",
+          "side": "left",
+          "message_id": 1
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Bane",
+      "picture": "https://image.ibb.co/cBZPww/bane_1.jpg",
+      "chatlog": [
+        {
+          "text": "Exactly my point!",
+          "timestamp": "10:00 AM",
+          "side": "left",
+          "message_id": 1
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Darth Vader",
+      "picture": "https://image.ibb.co/j4Ov3b/darth_vader_1.png",
+      "chatlog": [
+        {
+          "text": "Not quite the same.",
+          "timestamp": "10:00 AM",
+          "side": "left",
+          "message_id": 1
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Zach",
+      "picture": "https://image.ibb.co/b4kxGw/zach_1.jpg",
+      "chatlog": [
+        {
+          "text": "I thought that the event was over long ago",
+          "timestamp": "10:00 AM",
+          "side": "left",
+          "message_id": 1
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Katie",
+      "picture": "https://image.ibb.co/eLVWbw/katie_1.jpg",
+      "chatlog": [
+        {
+          "text": "nothing",
+          "timestamp": "10:00 AM",
+          "side": "left",
+          "message_id": 1
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Chloe",
+      "picture": "https://image.ibb.co/ncAa3b/chloe_1.jpg",
+      "chatlog": [
+        {
+          "text": "sure i'll take it from you",
+          "timestamp": "10:00 AM",
+          "side": "left",
+          "message_id": 1
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Kennith",
+      "picture": "https://image.ibb.co/fQKPww/kennith_1.jpg",
+      "chatlog": [
+        {
+          "text": "Take care, bye",
+          "timestamp": "10:00 AM",
+          "side": "left",
+          "message_id": 1
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Tara",
+      "picture": "https://image.ibb.co/dM6hib/tara_1.jpg",
+      "chatlog": [
+        {
+          "text": "Not today",
+          "timestamp": "10:00 AM",
+          "side": "left",
+          "message_id": 1
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Gary",
+      "picture": "https://image.ibb.co/gsF8Ob/gary_1.jpg",
+      "chatlog": [
+        {
+          "text": "Whatever works for you!",
+          "timestamp": "10:00 AM",
+          "side": "left",
+          "message_id": 1
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Zoey",
+      "picture": "https://image.ibb.co/nd0Wbw/zoey_1.jpg",
+      "chatlog": [
+        {
+          "text": "Will get in touch",
+          "timestamp": "10:00 AM",
+          "side": "left",
+          "message_id": 1
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Ash",
+      "picture": "https://image.ibb.co/iasYpG/ash_1.jpg",
+      "chatlog": [
+        {
+          "text": "Ok",
+          "timestamp": "10:00 AM",
+          "side": "left",
+          "message_id": 1
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Zen",
+      "picture": "https://image.ibb.co/eeqWbw/zen_1.jpg",
+      "chatlog": [
+        {
+          "text": "Lol",
+          "timestamp": "10:00 AM",
+          "side": "left",
+          "message_id": 1
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": 16,
+      "name": "A'Koba",
+      "picture": "https://i.ibb.co/vj99M82/Linked-In-Profile-Photo.jpg",
+      "status": "Available"
+    },
+    {
+      "id": 15,
+      "name": "Zen",
+      "picture": "https://image.ibb.co/eeqWbw/zen_1.jpg",
+      "status": "Busy"
+    },
+    {
+      "id": 14,
+      "name": "Ash",
+      "picture": "https://image.ibb.co/iasYpG/ash_1.jpg",
+      "status": "Busy"
+    },
+    {
+      "id": 13,
+      "name": "Zoey",
+      "picture": "https://image.ibb.co/nd0Wbw/zoey_1.jpg",
+      "status": "Busy"
+    },
+    {
+      "id": 12,
+      "name": "Gary",
+      "picture": "https://image.ibb.co/gsF8Ob/gary_1.jpg",
+      "status": "Busy"
+    },
+    {
+      "id": 11,
+      "name": "Tara",
+      "picture": "https://image.ibb.co/dM6hib/tara_1.jpg",
+      "status": "Busy"
+    },
+    {
+      "id": 10,
+      "name": "Kennith",
+      "picture": "https://image.ibb.co/fQKPww/kennith_1.jpg",
+      "status": "Busy"
+    },
+    {
+      "id": 9,
+      "name": "Chloe",
+      "picture": "https://image.ibb.co/ncAa3b/chloe_1.jpg",
+      "status": "Busy"
+    },
+    {
+      "id": 8,
+      "name": "Katie",
+      "picture": "https://image.ibb.co/eLVWbw/katie_1.jpg",
+      "status": "Busy"
+    },
+    {
+      "id": 7,
+      "name": "Zach",
+      "picture": "https://image.ibb.co/b4kxGw/zach_1.jpg",
+      "status": "Busy"
+    },
+    {
+      "id": 6,
+      "name": "Darth Vader",
+      "picture": "https://image.ibb.co/j4Ov3b/darth_vader_1.png",
+      "status": "Busy"
+    },
+    {
+      "id": 5,
+      "name": "Bane",
+      "picture": "https://image.ibb.co/cBZPww/bane_1.jpg",
+      "status": "Busy"
+    },
+    {
+      "id": 4,
+      "name": "Luke",
+      "picture": "https://image.ibb.co/jOzeUG/luke_1.jpg",
+      "status": "Busy"
+    },
+    {
+      "id": 3,
+      "name": "Bob",
+      "picture": "https://image.ibb.co/gSyTOb/bob_1.jpg",
+      "status": "Busy"
+    },
+    {
+      "id": 2,
+      "name": "Alex",
+      "picture": "https://image.ibb.co/cA2oOb/alex_1.jpg",
+      "status": "Busy"
+    },
+    {
+      "id": 17,
+      "name": "Almec",
+      "picture": "https://i.ibb.co/PwjTkM5/almec-1.jpg",
+      "status": "Busy"
+    },
+    {
+      "id": 18,
+      "name": "Raymus Antilles",
+      "picture": "https://i.ibb.co/DDYqVY2/raymus-1.jpg",
+      "status": "Busy"
+    },
+    {
+      "id": 19,
+      "name": "Doctor Aphra",
+      "picture": "https://i.ibb.co/XzGX7g7/aphra-1.jpg",
+      "status": "Busy"
+    },
+    {
+      "id": 20,
+      "name": "Ello Asty",
+      "picture": "https://i.ibb.co/3Mbw6j2/ello-1.jpg",
+      "status": "Busy"
+    },
+    {
+      "id": 21,
+      "name": "Kitster Banai",
+      "picture": "https://i.ibb.co/0DNsxhQ/kitster-1.jpg",
+      "status": "Busy"
+    },
+    {
+      "id": 22,
+      "name": "Barada",
+      "picture": "https://i.ibb.co/FwnNRfG/barada-1.jpg",
+      "status": "Busy"
+    },
+    {
+      "id": 23,
+      "name": "Depa Billaba",
+      "picture": "https://i.ibb.co/fYjSPWh/depa-1.jpg",
+      "status": "Busy"
+    },
+    {
+      "id": 24,
+      "name": "Temiri Blagg",
+      "picture": "https://i.ibb.co/x6Xzw7H/temiri-1.jpg",
+      "status": "Busy"
+    },
+    {
+      "id": 25,
+      "name": "Mina Bonteri",
+      "picture": "https://i.ibb.co/WpvRdrg/mina-1.jpg",
+      "status": "Busy"
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+.notify-connected{
+  top: 60px !important;
+}
+
+.right-container{
+  height:100%;
+  overflow-y: scroll;
+  padding: 0px;
+}
+
+.wlcm-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+  background-color: transparent;
+}
+
+.wlcm-container .wlcm-msg{
+  font-family: cursive;
+  color: dimgrey;
+  font-size: 4vw; 
+}
+
+.right-nav{
+  padding: 0px;
+}
+
+.right-nav .navbar-brand{
+  display: flex;
+  align-items: center;
+}
+
+.right-nav img{
+  height:60px;
+  width:60px;
+}
+
+.right-nav .contact-name{
+  padding-inline: 1rem;
+  font-weight: 600;
+  font-family: monospace;
+  font-style: italic;
+}
+
+.chatBox{
+  margin-bottom: 97px;
+  display:flex;
+  flex-direction: column-reverse;
+}
+
+.noChat-background {
+    background-color: #dad3cb;
+  }
+  .messageBox {
+    height: 95vh;
+    overflow: auto;
+  }
+  /* header */
+  .message-box-header {
+    background: #476c89;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 3;
+    box-shadow: 0 4px 8px 0 rgb(59 59 59 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  }
+  
+  .messages-section {
+    padding: 30px 40px;
+    overflow-y: scroll;
+    height: 90vh;
+    padding-bottom: 60px;
+  }
+
+  .messages-section::-webkit-scrollbar{
+    width:0;
+  }
+
+  .message-bubble {
+    display: flex;
+    align-items: center;
+  }
+  .mbr {
+    flex-direction: row-reverse;
+  }
+  /* no message found */
+  
+  .noMessage-alert {
+    position: absolute;
+    bottom: 50px;
+    left: 60%;
+    font-size: 18px;
+    color: #fff;
+    background-color: rgb(70, 133, 51);
+    padding: 1.2rem;
+  }
+  @media screen and (max-width: 622px) {
+    .noMessage-alert {
+      font-size: 14px;
+    }
+  }
+  /* chat bubbles css */
+  .left-bubble,.right-bubble {
+    width: -webkit-fill-available;
+    height: auto;
+    display: block;
+    font-size: 20px;
+    border-radius: 4px;
+    position: relative;
+    margin: 15px 0;
+    padding: 8px;
+    z-index: 1;
+  }
+
+  .left-bubble{
+    background: #01579B;
+  }
+
+   /* Styles for the received and sender's profile picture */
+  .avtar {
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    margin: 0 10px;
+  }
+
+  .message {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    font-size: .75em;
+  }
+
+  .name {
+    font-weight: 600;
+    font-size: .9em;
+    margin: 0 0 4px;
+  }
+
+  .left-bubble .name {
+    color: #00fbff;
+  }
+
+  .left-bubble .message {
+    color: aliceblue;
+  }
+
+  .left-bubble .bubble-arrow:after {
+    border-top: 9px solid #01579B;
+  }
+
+  @media screen and (max-width: 792px) {
+    .left-bubble {
+      /* width: 200px; */
+      padding: 6px;
+      margin: 10px 0;
+    }
+    .name {
+      font-size: 12px;
+    }
+    .message {
+      font-size: 13px;
+    }
+  }
+  @media screen and (max-width: 622px) {
+    .message {
+      font-size: 12px;
+    }
+  }
+  .txt {
+    padding: 8px 55px 8px 14px;
+  }
+
+  .message-timestamp {
+    font-size: 11px;
+    position: absolute;
+    bottom: 8px;
+    right: 10px;
+    text-transform: uppercase;
+    color: #90A4AE;
+  }
+  .bubble-arrow {
+    position: absolute;
+    width: 0;
+    bottom: 42px;
+    left: -16px;
+    height: 0;
+  }
+  .bubble-arrow:after {
+    content: "";
+    position: absolute;
+    border: 0 solid transparent;
+    border-top: 9px solid #f5f5f5;
+    border-radius: 0 20px 0;
+    width: 15px;
+    height: 30px;
+    transform: rotate(145deg);
+  }
+  /* right bubble */
+  .right-bubble {
+    background: #f5f5f5;
+  }
+
+  .right-bubble .name {
+    color: #40999c;
+  }
+
+  @media screen and (max-width: 792px) {
+    .right-bubble {
+      /* width: 200px; */
+      padding: 6px;
+      margin: 10px 0;
+    }
+  }
+  .bubble-arrow-alt {
+    right: -2px;
+    bottom: 40px;
+    left: auto;
+  }
+  .bubble-arrow-alt:after {
+    transform: rotate(45deg) scaleY(-1);
+  }
+
+  /* form */
+  form{
+    display: flex;
+  }
+  /* message-input */
+  .message-input-box {
+    background: var(--bs-border-color);
+    position: fixed;
+    bottom: 0;
+    padding: 0.5rem;
+    margin: 0 !important;
+    z-index: 2;
+  }
+  
+  .message-input-box input {
+    outline: none;
+    padding: 6px;
+    width: 100%;
+    margin-right: 20px;
+  }
+  
+  /* send button  css */
+  .send-button {
+    background-color: goldenrod;
+    width: 30%;
+    color: white;
+    padding: 6px;
+  }
+  @media screen and (max-width: 792px) {
+    .send-button {
+      font-size: 12px;
+      width: 40%;
+    }
+  }
+  

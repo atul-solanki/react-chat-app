@@ -1,0 +1,16 @@
+:root {
+  --app-bg:lightgray;
+  --nav-bg:rgb(222 226 230);
+  --recent-msg-color:gray;
+  --name-color:black;
+}
+
+#app{
+  background-color: var(--app-bg);
+  height: 100%;
+  overflow: hidden;
+}
+
+#app > :first-child {
+  height: 100%;
+}
